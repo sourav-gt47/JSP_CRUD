@@ -1,0 +1,9 @@
+CREATE TABLE Trainee(
+	empId int,
+	name varchar(255),
+	gender varchar(255),
+	dob date,
+	citizenshipStatus varchar(255)
+);
+
+SELECT * from Trainee;
